@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/94451321b2.js" crossorigin="anonymous"></script>
+
+
+    <title>Lesson1 Modul</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+    <!--<script defer src="https://cdn.jsdelivr.net/npm/luxon@1.25.0/build/global/luxon.min.js"></script>
+    
+    <script src="js/loadScript.js"></script>
+    -->
+
+    <script type="module" src="js/main.js"></script>
+
+
+    <!--<script defer src="js/timer.js"></script>-->
+
+</head>
+
+<body>
+
+    <!--
+    <script src="js/howler.min.js"></script>
+    <script>
+        var sound = new Howl({
+            src: ['js/sound2.mp3'],
+            volume: 0.5,
+            onend: function () {
+                alert('Finished!');
+            }
+        });
+        sound.play()
+    </script>
+-->
+
+    <header class="header">
+        <div class="container header__wrap">
+            <div class="header_left">
+                <a class="header__logo" href="/">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <img src="img/Forma1.png" alt="">
+            </div>
+            <div class="header_right">
+                <div class="header__item">
+                    <img src="img/Forma3.png" alt="">
+                </div>
+                <div class="header__item">
+                    <img src="img/Forma2.png" alt="">
+                </div>
+                <div class="header__item">
+
+                    <img src="img/Forma4.png" alt="">
+                    <span class="count">5</span>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="moduls container">
+
+        <form id="datecalc">
+            <h3>Калькулятор дат</h3>
+            <label>
+                <strong>Первая дата:</strong>
+                <input type="date" name="firstDate" />
+            </label>
+            <label>
+                <strong>Вторая дата:</strong>
+                <input type="date" name="secondDate" />
+            </label>
+            <button type="submit">Расчитать промежуток</button>
+            <p id="datecalc__result">hhh</p>
+        </form>
+
+        <form id="mytimer">
+            <input type="time" name="timer2" />
+            <button type="submit">Start</button>
+
+            <p id="timer6">hh</p>
+
+        </form>
+        <button id="stopbtn" type="submit">Stop</button>
+        <button id="clearbtn" type="submit">Clear</button>
+
+    </section>
+    <section id="tiles" class="container">
+
+    </section>
+
+    <p>Таймер можно сделать любым способом но если я все правильно поонял необходимо было его реализовать с помощью этой
+        библиотеки</p>
+    <p>Один из вариантов я реализовал использзуя постоянное сравнение локальной даты</p>
+    <p>Есть еще вариант привести к обьектузаданный интервал и оперировать с ним, пеерводя к примеру в секунды каждый раз
+        при обновлении времени и обратно для того чтобы не не учитывать ту ситуацию когда секунды(минуты или часы) будут
+        меньше 0
+    </p>
+    <p>Так же можно сделать таймер используя длительность или интервал</p>
+    <p>гит хаб установил только что и надеюсь домашка до вас дойдет</p>
+    <footer class="footer">
+        <!--
+        <section class="footer_top">
+            <div class="container">
+                <div class="footer_deliv">
+                    <div class="footer_deliv__card">
+                        <img src="img/Form1.png" alt="">
+
+                        <a href="#"><span>Free Delivery</span></a>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                            models.</p>
+                    </div>
+                    <div class="footer_deliv__card">
+                        <img src="img/Form2.png" alt="">
+
+                        <a href="#"><span>Sales & discounts</span></a>
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                            models.</p>
+                    </div>
+                    <div class="footer_deliv__card">
+                        <div> <img src="img/Form3.png" alt=""></div>
+
+                        <a href="#"><span>Quality assurance</span></a>
+
+                        <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive
+                            models.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="footer_content">
+            <div class="container">
+                <div class="footer_subs">
+                    <div class="footer_subs__info">
+                        <div class="footer_img">
+                            <img src="img/Intersect.png" alt="">
+                        </div>
+                        <div>
+                            <p class="text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <i>a pulvinar
+                                    purus
+                                    condimentum“</i></p>
+                        </div>
+
+                    </div>
+                    <div class="footer_subs_btn">
+
+                        <p class="subscribe">SUBSCRIBE</p>
+                        <p class="subt">FOR OUR NEWLETTER AND PROMOTION</p>
+
+                        <form method="POST" action="" class="subs">
+
+                            <input class="input" type="email" placeholder="my@email.ru">
+                            <button class="button">Subscribe</button>
+
+
+
+
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+-->
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="footer_bottom_content">
+                    <div class="footer_bottom__left">
+                        <p>&copy 2021 Brand All Rights Reserved.</p>
+                    </div>
+                    <div class="footer_bottom__right">
+                        <div class="footer__right__card">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="footer__right__card">
+                            <img class="footer__right__card__img" src="" alt="">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="footer__right__card">
+                            <i class="fab fa-pinterest-p"></i>
+                        </div>
+                        <div class="footer__right__card">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
