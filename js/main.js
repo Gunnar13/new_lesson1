@@ -60,16 +60,16 @@ function outTimer2(event) {
     //let dd1;
     let t3 = ttt(timer2);                   //вычислить конечное врем таймера
 
-    let timeOut = setTimeou(timer2);        //вычислить время для setTimeout(() в миллисекундах 
+  //  let timeOut = setTimeou(timer2);        //вычислить время для setTimeout(() в миллисекундах 
 
-    start(timer6, t3, timeOut);
+    start(timer6, t3);
 
     return
 
 }
 
 
-function start(timer6, t3, timeOut) {
+function start(timer6, t3) {
     timerId = setInterval(() => {
         // getCountdown(t3);
         let getCurTime = getCountdown(t3);
