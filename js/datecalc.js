@@ -56,12 +56,12 @@ export function timer5(timer2, d1, d2) {
 
 */
 
-export function setTimeou(timer2) {
-    let t1 = DateTime.fromISO(timer2);
-    let dd = Duration.fromObject({ hours: t1.hour, minutes: t1.minute, seconds: t1.second }).toObject();
-    let timeOut = Duration.fromObject(dd).as('milliseconds');
-    return timeOut
-}
+//export function setTimeou(timer2) {
+ //   let t1 = DateTime.fromISO(timer2);
+//    let dd = Duration.fromObject({ hours: t1.hour, minutes: t1.minute, seconds: t1.second }).toObject();
+//    let timeOut = Duration.fromObject(dd).as('milliseconds');
+//    return timeOut
+//}
 
 export function ttt(timer2) {
     let t1 = DateTime.fromISO(timer2);
