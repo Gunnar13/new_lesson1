@@ -1,7 +1,7 @@
 //loadScript("js/load.js", () => {
 //console.log('main.js');
 import { printOutput } from "./output.js";
-import { ttt, diffDates, diffToHtml, getCountdown, timerToHtml, setTimeou, pauseTimer } from "./datecalc.js";
+import { ttt, diffDates, diffToHtml, getCountdown, timerToHtml, pauseTimer } from "./datecalc.js";
 //import { Howl } from "https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js";
 //import { loadScript } from "./loadScript.js";
 import { sound } from "./howscript.js";
