@@ -8,36 +8,26 @@
     <script src="https://kit.fontawesome.com/94451321b2.js" crossorigin="anonymous"></script>
 
 
-    <title>Lesson1 Modul</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <!--<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+    <title>Lesson2 Modul</title>
+    <!--<link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
     <!--<script defer src="https://cdn.jsdelivr.net/npm/luxon@1.25.0/build/global/luxon.min.js"></script>
     
-    <script src="js/loadScript.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="dist/main.bundle.js"></script>
+    <script defer src="dist/main.bundle.js"></script>
     -->
 
-    <script type="module" src="js/main.js"></script>
 
 
-    <!--<script defer src="js/timer.js"></script>-->
+
+
+
+
 
 </head>
 
 <body>
-
-    <!--
-    <script src="js/howler.min.js"></script>
-    <script>
-        var sound = new Howl({
-            src: ['js/sound2.mp3'],
-            volume: 0.5,
-            onend: function () {
-                alert('Finished!');
-            }
-        });
-        sound.play()
-    </script>
--->
 
     <header class="header">
         <div class="container header__wrap">
@@ -63,6 +53,7 @@
             </div>
         </div>
     </header>
+
     <section class="moduls container">
 
         <form id="datecalc">
@@ -80,7 +71,7 @@
         </form>
 
         <form id="mytimer">
-            <input type="time" name="timer2" />
+            <input type="time" name="startTime" />
             <button type="submit">Start</button>
 
             <p id="timer6">hh</p>
@@ -90,19 +81,10 @@
         <button id="clearbtn" type="submit">Clear</button>
 
     </section>
+
     <section id="tiles" class="container">
 
     </section>
-
-    <p>Таймер можно сделать любым способом но если я все правильно поонял необходимо было его реализовать с помощью этой
-        библиотеки</p>
-    <p>Один из вариантов я реализовал использзуя постоянное сравнение локальной даты</p>
-    <p>Есть еще вариант привести к обьектузаданный интервал и оперировать с ним, пеерводя к примеру в секунды каждый раз
-        при обновлении времени и обратно для того чтобы не не учитывать ту ситуацию когда секунды(минуты или часы) будут
-        меньше 0
-    </p>
-    <p>Так же можно сделать таймер используя длительность или интервал</p>
-    <p>гит хаб установил только что и надеюсь домашка до вас дойдет</p>
     <footer class="footer">
         <!--
         <section class="footer_top">
